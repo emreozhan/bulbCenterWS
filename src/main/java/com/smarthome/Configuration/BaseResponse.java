@@ -1,4 +1,4 @@
-package com.smarthome.bulbcenter;
+package com.smarthome.Configuration;
 
 public class BaseResponse {
 	private String status;

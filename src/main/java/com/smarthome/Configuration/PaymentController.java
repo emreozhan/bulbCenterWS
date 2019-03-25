@@ -1,4 +1,4 @@
-package com.smarthome.bulbcenter;
+package com.smarthome.Configuration;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

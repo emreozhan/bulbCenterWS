@@ -1,4 +1,4 @@
-package com.smarthome.bulbcenter;
+package com.smarthome.Core;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
