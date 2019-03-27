@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.smarthome.Models.YeeLightBulbResponse;
+import com.smarthome.Models.YeeLightBulb.*;
 import com.smarthome.Service.WidgetService;
 
 @RestController
@@ -15,8 +15,14 @@ public class WidgetController {
 	public YeeLightBulbResponse getYeeLightBulbWidget() {
 
 		YeeLightBulbResponse response = new YeeLightBulbResponse();
-		response.setYeeLight(WidgetService.PrepareYeeLightColorBulbWidget());
+		YeeLightBulbWidget device = WidgetService.PrepareYeeLightColorBulbWidget();
+		response.setYeeLight(device);
 
+//TODO created for test- delete
+		device.setTcpSetting();
+		
+		device.toogleBulb();
+		
 		return response;
 	}
 }

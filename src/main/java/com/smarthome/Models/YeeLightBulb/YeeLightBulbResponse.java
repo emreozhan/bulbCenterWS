@@ -1,4 +1,4 @@
-package com.smarthome.Models;
+package com.smarthome.Models.YeeLightBulb;
 
 import com.smarthome.Configuration.BaseResponse;
 

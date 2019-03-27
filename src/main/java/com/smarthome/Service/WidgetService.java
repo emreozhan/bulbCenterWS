@@ -1,6 +1,6 @@
 package com.smarthome.Service;
 
-import com.smarthome.Models.YeeLightBulbWidget;
+import com.smarthome.Models.YeeLightBulb.*;
 
 public class WidgetService {
 
@@ -14,7 +14,7 @@ public class WidgetService {
 		widget.setName("YeeLightColorBulb");
 		widget.setDescription("YeeLight Color Bulb");
 		widget.setTitle("My Color Bulb");
-
+		
 		return widget;
 	}
 
